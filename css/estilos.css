@@ -1,0 +1,282 @@
+body{
+    background-color: azure;
+}    
+
+@media only screen and (min-width: 380px){
+    .logo{
+        // height: 60%;
+        // width: 60%;
+        // padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.logo{
+        height: 70%;
+        width: 70%;
+        padding: 5px;
+        // margin-left: 50px;
+        // margin-top: 10px;
+}
+
+.banner{
+    margin-top: 100px;
+    margin-bottom: 100px;    
+}
+
+@media only screen and (min-width: 0){
+    .banner{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+// .row-banner{
+//     display: flex;
+//     flex-wrap: wrap;
+// }
+
+@media only screen and (min-width: 350px){
+    .row-banner {
+    margin-bottom: 20px;
+    }
+
+    .row-banner .img-design{
+        border-radius: 25px;
+        height: 100px;
+        width: 100px;            
+    }
+    
+    .row-banner .img-branding{
+        border-radius: 25px;
+        height: 100px;
+        width: 100px;        
+    }
+    
+    .row-banner .img-web{
+        border-radius: 25px;
+        height: 100px;
+        width: 100px;        
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .row-banner {
+    margin-bottom: 20px;
+    }
+
+    .row-banner .img-design{
+        border-radius: 25px;
+        height: 450px;
+    }
+    
+    .row-banner .img-branding{
+        border-radius: 25px;
+        height: 400px;
+    }
+    
+    .row-banner .img-web{
+        border-radius: 25px;
+        height: 400px;
+    }
+}
+
+      
+
+// .img {
+//   width: 100%;
+//   height: 300px;
+//       object-fit: cover;
+//       object-position: bottom;
+// } 
+ 
+.banner img {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    object-fit: cover;
+    object-position: bottom;
+
+    animation: float 2s linear infinite;
+}
+
+@keyframes float {
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(-1.5rem);
+    }
+}
+
+.banner-img:hover img {
+    margin-top: -50px;
+}
+
+.img-design{
+    border-radius: 25px;
+    height: 450px;    
+}
+
+.img-branding{
+    border-radius: 25px;
+    height: 400px;
+}
+
+.img-web{
+    border-radius: 25px;
+    height: 400px;
+}
+
+// .banner-svg{
+//     width: 100%;
+//     display: inline-block;
+// }
+
+// .typing{
+//     animation: typing 2s steps(25), blink .5s step-end infinite;
+//     white-space: nowrap;
+//     overflow: hidden;
+// }
+
+// @keyframes typing{
+//     from {
+//         width: 0;
+//     }
+// }
+
+// @keyframes blink {
+//     50% {
+//         border-color: transparent;
+//     }
+// }
+
+.slogan h5{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: thin;
+    font-size: 24px;
+
+}
+
+.slogan p{
+    text-align: justify;
+}
+
+@media only screen and (min-width: 350px){
+    #ous{
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+
+.who-are h5{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.ous-p {
+  text-align: justify;
+}
+
+.slogan .header{
+    margin-bottom: 30px;
+}
+
+.services-title h5{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+// @media only screen and (min-width: 300px){
+//     .services .service{
+//         height: 350px;
+// }
+// }
+
+.service{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #00897b ;
+    border-radius: 25px;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.service-icon i{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+
+.service-title{
+    margin-top: 5px;    
+}
+
+.service-title h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.service-p {
+        text-align: justify;
+}
+
+.FAQ{
+    margin-top: 100px;
+}
+
+.faq{
+    margin-bottom: 50px;
+}
+
+.faq h5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.contact h6{
+    font-family: 'Roboto', sans-serif;
+    font-weight: thin;
+    font-size: 24px;
+}
+
+.collapsible-header{
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #448aff;
+}
+
+.contact{
+    margin-top: 100px;
+}
+
+.contact-title{
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 350px){
+    .contact-text{
+        margin-bottom: 10px;
+}
+}
+.contact-text label{
+    font-size: 14px;
+}
+
+.label{
+    margin-top: 15px;
+}
+
+
+.footer-copyright {
+    padding: 15px;
+}
