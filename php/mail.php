@@ -1,8 +1,8 @@
 <?php 
 	$nombre = $_POST['nombre'];
-    $apellidos = $_POST['apellidos'];
+    // $apellidos = $_POST['apellidos'];
 	$correo = $_POST['correo'];
-    $msj = $_POST['msj'];
+    $message = $_POST['msj'];
 	// $msj = "Nombre: ".$nombre."<br> Apellidos:".$apellidos."Email:" .$email. "<br> Mensaje:".$_POST['mensaje'];
 
 
@@ -15,7 +15,7 @@
     $header .= "Mime-Version: 1.0 \r\n";
     $header .= "Content-Type: text/plain";
 
-    $message = "Este mensaje fue enviado por: " .$nombre + $apellidos. "\r\n";
+    $message = "Este mensaje fue enviado por: " .$nombre. "\r\n";
     $message .= "Su email es: " .$correo. "\r\n";
     $message .= "Mensaje: " .$_POST['message'] . "\r\n";
     $message .= "Enviado el día: " .date('d/m/Y', time());
