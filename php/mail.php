@@ -27,6 +27,4 @@
         echo "Correo enviado!";
     }
 
-    header ("Location: index.html");
-
  ?>
